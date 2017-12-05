@@ -19,7 +19,7 @@ import com.alibaba.fastjson.JSONObject;
 public class FileUtils {
 	public static final String FILEPATH = "Permanent_Data";
 
-	// json写入文件
+	// json写入文件aaa
 	public synchronized static void write2File(Object json, String fileName) {
 		BufferedWriter writer = null;
 		File filePath = new File(FILEPATH);
